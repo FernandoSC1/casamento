@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Amsterdam four','Times New Roman', Times, serif;
+}
+
+.fundoback {
+    background-image: url(./img/layout3.png);
+    background-size: 100%;
+}
+
+.fundoopacity {
+    background-image: url(./img/layout4-2.png);
+    background-size: 100%;
+    
+}
+
+#menuconfig {
+    background-color: #ffa510;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px 30px;
+    font-size: 18px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header img {
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid   rgb(248, 237, 171);
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: gold;
+}
+
+h2 {
+    text-align: center;
+    color: gold;
+}
+
+h3 {
+    color: orange;
+}
+
+p {
+    color:rgb(214, 25, 25)
+}
+
+footer P {
+    color: gold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+hr {
+    border-color: gold;
+}
+
+.texthistoria {
+    color: rgb(214, 25, 25);
+}
+
+#menuNossaConfig {
+    background-color: #ffa510;
+    color: orange;
+    display: flex;
+    padding: 16px 30px;
+    font-size: 18px;
+}
+
+#rodapeconfig {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
+
+#hrconfig {
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+    
+    .conteiner {
+        width: 1200px;
+        padding: 2rem;
+    }    
+}
+
+@media screen and (max-width: 800px) {
+    .conteiner {
+        width: 100%;
+        padding: 1rem;
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        margin-top: auto;
+    }
+
+    .fundoback {
+        align-items: center;
+    }
+    .fundocabecalho {
+        
+        display: flex;
+        padding: 5px 10px;
+        font-size: 9px;
+    }
+}
